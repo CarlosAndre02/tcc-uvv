@@ -17,10 +17,13 @@
     "@fontsource/roboto": "^5.0.13",
     "@phosphor-icons/react": "^2.1.6",
     "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
     "formik": "^2.4.6",
     "framer-motion": "^11.2.12",
     "react": "^18.3.1",
+    "react-bootstrap": "^2.10.3",
     "react-dom": "^18.3.1",
+    "react-multi-carousel": "^2.8.5",
     "react-router-dom": "^6.24.0",
     "yup": "^1.4.0"
   },
