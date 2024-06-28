@@ -13,6 +13,10 @@ const ProfessorAvaliar = lazy(
   () => import("../modules/professor/ProfessorAvaliar")
 );
 const AlunoHome = lazy(() => import("../modules/aluno/AlunoHome"));
+const AlunoPerfil = lazy(() => import("../modules/aluno/AlunoPerfil"));
+const AlunoTarefa = lazy(() => import("../modules/aluno/AlunoTarefa"));
+const AlunoClassificacao = lazy(() => import("../modules/aluno/AlunoClassificacao"));
+const AlunoPremio = lazy(() => import("../modules/aluno/AlunoPremio"));
 
 export const AppRoutes = () => (
   <Routes>
@@ -22,6 +26,10 @@ export const AppRoutes = () => (
     <Route path="/professor/tarefa" element={<ProfessorForm />} />
     <Route path="/professor/avaliar" element={<ProfessorAvaliar />} />
     <Route path="/aluno/home" element={<AlunoHome />} />
+    <Route path="/aluno/perfil" element={<AlunoPerfil />} />
+    <Route path="/aluno/tarefa" element={<AlunoTarefa />} />
+    <Route path="/aluno/classificacao" element={<AlunoClassificacao />} />
+    <Route path="/aluno/premio" element={<AlunoPremio />} />
 
     <Route element={<PublicOnlyRoute />}></Route>
 

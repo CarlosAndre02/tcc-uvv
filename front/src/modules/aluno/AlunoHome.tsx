@@ -15,12 +15,10 @@ import {
   ModalOverlay,
   Text,
   useDisclosure,
-  Image,
 } from "@chakra-ui/react";
 
 import { Header } from "../../shared/Header";
 import { Plus } from "@phosphor-icons/react";
-import Carousel from "react-bootstrap/Carousel";
 
 export default function AlunoHome() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -139,36 +137,6 @@ export default function AlunoHome() {
             <Text color="white" fontWeight="black" fontSize="30px">
               Loja
             </Text>
-            <Carousel>
-              <Carousel.Item>
-                <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRip96Ykk_rBzk9X1Lb-i6uRbqvhLviGTkgJg&s" />
-                <Carousel.Caption>
-                  <h3>First slide label</h3>
-                  <p>
-                    Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  </p>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item>
-                <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRip96Ykk_rBzk9X1Lb-i6uRbqvhLviGTkgJg&s" />
-                <Carousel.Caption>
-                  <h3>Second slide label</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item>
-                <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRip96Ykk_rBzk9X1Lb-i6uRbqvhLviGTkgJg&s" />
-                <Carousel.Caption>
-                  <h3>Third slide label</h3>
-                  <p>
-                    Praesent commodo cursus magna, vel scelerisque nisl
-                    consectetur.
-                  </p>
-                </Carousel.Caption>
-              </Carousel.Item>
-            </Carousel>
           </Flex>
         </Flex>
       </Container>
